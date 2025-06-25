@@ -26,7 +26,7 @@ require (
 	github.com/operator-framework/deppy v0.3.0
 	github.com/prometheus/client_golang v1.22.0
 	github.com/prometheus/client_model v0.6.2
-	github.com/prometheus/common v0.64.0
+	github.com/prometheus/common v0.65.0
 	github.com/pterm/pterm v0.12.81
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
@@ -45,7 +45,7 @@ require (
 	k8s.io/utils v0.0.0-20241210054802-24370beab758
 	package-operator.run/apis v1.17.1
 	package-operator.run/pkg v1.17.1
-	pkg.package-operator.run/boxcutter v0.1.1
+	pkg.package-operator.run/boxcutter v0.1.2-0.20250624103119-6012f3de9061
 	pkg.package-operator.run/cardboard v0.0.4
 	pkg.package-operator.run/cardboard/kubeutils v0.0.4
 	pkg.package-operator.run/cardboard/modules/kind v0.0.4

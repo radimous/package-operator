@@ -117,3 +117,8 @@ func (m *AccessorMock) IndexField(
 	args := m.Called(ctx, obj, field, extractValue)
 	return args.Error(0)
 }
+
+func (m *AccessorMock) GetGVKs() []schema.GroupVersionKind {
+	args := m.Called()
+	return args.Get(0).([]schema.GroupVersionKind)
+}
