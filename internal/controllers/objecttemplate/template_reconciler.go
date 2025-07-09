@@ -106,7 +106,7 @@ func (r *templateReconciler) Reconcile(
 		objects,
 	)
 	if err != nil {
-		return res, err
+		return res, fmt.Errorf("getting cache: %w", err)
 	}
 
 	existingObj := &unstructured.Unstructured{}
